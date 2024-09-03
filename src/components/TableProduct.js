@@ -85,7 +85,7 @@ const TableProduct = ({cart}) => {
                 <span
                   className="material-symbols-outlined"
                   onClick={() => {
-                    if ( window confirm ("Are you sure, want remove from cart")) {
+                    if (("Are you sure, want remove from cart")) {
                       removeFromCart(product?.productId);
                     }
                   }}>
